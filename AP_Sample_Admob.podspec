@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   
   spec.source_files = ["SSP_Admob/SSP_Admob/**/*"]
     
-
+  spec.dependency 'AP_SSP'
 
 
 end
