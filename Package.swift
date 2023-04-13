@@ -8,10 +8,10 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "AP_SSP_Sample",
+            name: "SSP_Common",
             targets: ["SSP_Common"]),
         .library(
-            name: "AP_SSP_Admob_Sample",
+            name: "AP_Sample_Admob",
             targets: ["SSP_Admob", "SSP_Common"]),
     ],
     dependencies: [
@@ -21,18 +21,14 @@ let package = Package(
     ],
     targets: [
 
-        .target(
-            name: "SSP_Common",
-            exclude: ["Admob"]
-        ),
-        
+        .binaryTarget(name: "SSP_Common",
+                      path: "BinaryFramework/SSP_Common/xcFrameWork/SSP_Common.xcframework"),
 
         .target(
             name: "SSP_Admob",
             dependencies: [
                 .target(name: "SSP_Common")
-            ],
-            exclude: ["SSP_Common", "SSP_CommonTests"]
+            ]
         ),
         
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
