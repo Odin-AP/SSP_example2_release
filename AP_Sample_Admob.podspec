@@ -8,7 +8,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AP_Sample_Admob"
-  spec.version      = "0.1.5"
+  spec.version      = "0.1.6"
   spec.summary      = "AdPopcorn SSP_Admob 관련 SDK."
 
   spec.description  = <<-DESC
@@ -20,6 +20,7 @@ TODO: Add long description of the pod here.
   spec.author       = { "Odin-AP" => "odin.song@adpopcorn.com" }
   spec.source           = { :git => 'https://github.com/Odin-AP/SSP_example2_release.git', :tag => spec.version.to_s }
   spec.ios.deployment_target = '12.0'
+  spec.swift_version = '5.3'
   
   spec.source_files = ["SSP_Admob/SSP_Admob/**/*"]
     
