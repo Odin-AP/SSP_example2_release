@@ -1,0 +1,11 @@
+framework module SSP_Common {
+  umbrella header "SSP_Common.h"
+
+  export *
+  module * { export * }
+}
+
+module SSP_Common.Swift {
+  header "SSP_Common-Swift.h"
+  requires objc
+}
