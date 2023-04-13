@@ -1,14 +1,13 @@
 #
-#  Be sure to run `pod spec lint common.podspec' to ensure this is a
+#  Be sure to run `pod spec lint AP_SSP.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
-
 Pod::Spec.new do |spec|
 
-  spec.name         = "common"
+  spec.name         = "AP_SSP"
   spec.version      = "0.1.1"
   spec.summary      = "AdPopcorn SSP 관련 Common SDK."
 
