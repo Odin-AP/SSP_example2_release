@@ -8,7 +8,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AP_SSP"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.3"
   spec.summary      = "AdPopcorn SSP 관련 Common SDK."
 
   spec.description  = <<-DESC
