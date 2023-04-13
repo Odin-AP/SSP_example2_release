@@ -8,7 +8,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AP_Sample_Admob"
-  spec.version      = "0.1.7"
+  spec.version      = "0.1.8"
   spec.summary      = "AdPopcorn SSP_Admob 관련 SDK."
 
   spec.description  = <<-DESC
@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
   spec.ios.deployment_target = '12.0'
   spec.swift_version = '5.3'
   
-  spec.source_files = ["SSP_Admob/SSP_Admob/**/*"]
+  spec.source_files = ["Sources/SSP_Admob/SSP_Admob/**/*"]
     
   spec.dependency 'AP_SSP'
 
