@@ -24,11 +24,13 @@ let package = Package(
         .binaryTarget(name: "SSP_Common",
                       path: "BinaryFramework/SSP_Common/xcFrameWork/SSP_Common.xcframework"),
 
+
         .target(
             name: "SSP_Admob",
             dependencies: [
                 .target(name: "SSP_Common")
             ]
+                ,exclude: ["SSP_AdmobTests"]
         ),
         
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

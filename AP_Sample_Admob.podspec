@@ -8,7 +8,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AP_Sample_Admob"
-  spec.version      = "0.1.8"
+  spec.version = '0.1.9'
   spec.summary      = "AdPopcorn SSP_Admob 관련 SDK."
 
   spec.description  = <<-DESC

@@ -8,7 +8,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AP_SSP"
-  spec.version      = "0.1.8"
+  spec.version = '0.1.9'
   spec.summary      = "AdPopcorn SSP 관련 Common SDK."
 
   spec.description  = <<-DESC
@@ -21,7 +21,7 @@ TODO: Add long description of the pod here.
   spec.source           = { :git => 'https://github.com/Odin-AP/SSP_example2_release.git', :tag => spec.version.to_s }
   spec.ios.deployment_target = '12.0'
     
-  spec.ios.vendored_frameworks = 'Sources/SSP_Common/xcFrameWork/SSP_Common.xcframework'
+  spec.vendored_frameworks = 'Sources/SSP_Common/xcFrameWork/SSP_Common.xcframework'
 
 
 end
